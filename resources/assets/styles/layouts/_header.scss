@@ -1,0 +1,61 @@
+.banner .nav li {
+  @extend .nav-item;
+}
+
+.banner .nav a {
+  @extend .nav-link;
+
+  padding: 0;
+  margin: 0.5rem 1rem;
+  font-size: 0.67rem;
+  text-transform: uppercase;
+}
+
+.banner {
+  position: absolute;
+  top: 1rem;
+  z-index: 1;
+  left: 15rem;
+
+  .container {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-primary {
+    width: 1022px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .brand {
+    color: #000;
+    text-decoration: none;
+    font-family: Soft Sugar plain, sans-serif;
+    font-size: 1.2rem;
+
+    &:active {
+      opacity: 0.6;
+    }
+  }
+}
+
+.logged-in {
+  .banner {
+    top: 3rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .banner {
+    position: absolute;
+    top: 1rem;
+    z-index: 1;
+    left: 0;
+
+    .nav-primary {
+      display: none;
+      width: initial;
+    }
+  }
+}
