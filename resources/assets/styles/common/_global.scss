@@ -1,3 +1,12 @@
+@font-face {
+  font-family: 'Soft Sugar plain';
+  src: url('../../fonts/SoftSugarplain.woff2') format('woff2'),
+      url('../../fonts/SoftSugarplain.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 a:not(.brand) {
   color: #000;
   font-weight: bold;
