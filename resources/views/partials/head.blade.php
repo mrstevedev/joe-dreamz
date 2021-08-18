@@ -14,7 +14,7 @@
   <link rel="preload" as="font" href="@php bloginfo('url') @endphp/wp-content/themes/joedreamz/dist/fonts/SoftSugarplain.woff2" type="font/woff" crossorigin />
   <link rel="preload" as="font" href="@php bloginfo('url') @endphp/wp-content/themes/joedreamz/dist/fonts/SoftSugarplain.woff" type="font/woff" crossorigin />
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
 
   @php wp_head() @endphp
 </head>
