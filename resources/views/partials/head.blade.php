@@ -8,5 +8,13 @@
   <meta prefix="og: http://ogp.me/ns#" property="og:image" content=@php echo bloginfo('url') . "/wp-content/uploads/2021/08/image1.jpeg" @endphp />
   <meta prefix="og: http://ogp.me/ns#" property="og:url" content="{Your content}" />
   <meta prefix="og: http://ogp.me/ns#" property="og:description" content="San Diego based Hip-Hop artist." />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <link rel="preload" as="font" href="@php bloginfo('url') @endphp/wp-content/themes/joedreamz/dist/fonts/SoftSugarplain.woff2" type="font/woff" crossorigin />
+  <link rel="preload" as="font" href="@php bloginfo('url') @endphp/wp-content/themes/joedreamz/dist/fonts/SoftSugarplain.woff" type="font/woff" crossorigin />
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
   @php wp_head() @endphp
 </head>
