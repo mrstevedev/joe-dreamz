@@ -1,8 +1,8 @@
 <footer class="content-info">
   <div class="cookie__notification">
     <p>This site uses cookies to provide a great user experience. By using LiveJoeDreamz.org, you agree to our use of cookies.</p>
-    <button>Decline</button>
-    <button>Accept</button>
+    <button class="cookie__notification--decline">Decline</button>
+    <button class="cookie__notification--accept">Accept</button>
   </div>
   <div class="container">
     {{-- @php dynamic_sidebar('sidebar-footer') @endphp --}}
