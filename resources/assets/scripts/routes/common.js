@@ -15,12 +15,10 @@ export default {
     //if cookie hasn't been set...
     if (document.cookie.indexOf('CookieNotificationShown') < 0) {
       setTimeout(() => {
-        console.log('no cookie found')
         notification.style.display = 'block';
       }, 5400);
 
       acceptBtn.addEventListener('click', () => {
-        console.log('accept button clicked');
   
         // Store cookie
         document.cookie =
